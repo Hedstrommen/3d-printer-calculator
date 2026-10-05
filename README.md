@@ -4,7 +4,10 @@ A web app for calculating what a 3D print costs to make — and what you should 
 
 Runs **entirely in the browser** (C# via Blazor WebAssembly): no server, no hosting cost, and it **works offline** after your first visit.
 
-**Try it live:** `https://hedstrommen.github.io/3D-Printer-calculator/` (once GitHub Pages is enabled — see below)
+**Try it yourself:** `https://hedstrommen.github.io/3D-Printer-calculator/`
+
+# How it looks like:
+<img width="974" height="1212" alt="image" src="https://github.com/user-attachments/assets/47764434-c5b4-4baa-a918-08c03dcaf2f7" />
 
 ## Features
 
@@ -17,30 +20,6 @@ Runs **entirely in the browser** (C# via Blazor WebAssembly): no server, no host
 - **Works offline** — after the first visit it runs without internet (PWA service worker)
 - **Phone-friendly** — installable as an app from the browser, responsive layout
 - **Green & teal theme** with soft animations
-
-## Run it locally
-
-Requires the [.NET 8 SDK](https://dotnet.microsoft.com/download/dotnet/8.0).
-
-```bash
-dotnet run --project src/PrintCostCalculator.Web
-```
-
-## Publish it on the web (GitHub Pages, free)
-
-The repository contains `.github/workflows/deploy-github-pages.yml`, which builds, tests, and publishes the app as a static site on every push to `main`.
-
-One-time setup (you do this in GitHub, ~2 minutes):
-
-1. Go to the repo on GitHub → **Settings** → **Pages**.
-2. Under **Build and deployment** → **Source**, pick **GitHub Actions**.
-3. Done. Push to `main` (or run the workflow manually from the **Actions** tab) and your app appears at:
-
-```
-https://hedstrommen.github.io/3D-Printer-calculator/
-```
-
-No Azure, no server, no cost. Open the link on your phone and choose **Add to Home Screen** — it installs like a native app and then works offline.
 
 ## Project layout
 
