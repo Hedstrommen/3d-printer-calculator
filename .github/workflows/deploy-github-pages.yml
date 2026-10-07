@@ -36,10 +36,10 @@ jobs:
       - name: Publish the app
         run: dotnet publish ${{ env.PROJECT_PATH }} -c Release -o publish-output
 
-      # GitHub Pages serves a project site under /3D-Printer-calculator/,
+      # GitHub Pages serves a project site under /3d-printer-calculator/,
       # so the app's base href must match that path.
       - name: Set the correct base path for GitHub Pages
-        run: sed -i 's|<base href="/" />|<base href="/3D-Printer-calculator/" />|' publish-output/wwwroot/index.html
+        run: sed -i 's|<base href="/" />|<base href="/3d-printer-calculator/" />|' publish-output/wwwroot/index.html
 
       # GitHub Pages shows 404.html for unknown paths; it redirects deep
       # links back to index.html (see wwwroot/404.html).
