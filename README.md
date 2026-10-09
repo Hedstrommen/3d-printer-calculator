@@ -4,9 +4,10 @@ A web app for calculating what a 3D print costs to make — and what you should 
 
     OBS - This project is AI written, idea and prompter is human (made from my own calculations in excel)- OBS
 
-Runs **entirely in the browser** (C# via Blazor WebAssembly): no server, no hosting cost, and it **works offline** after your first visit.
+Runs **entirely in the browser**
 
-    Try it yourself: https://hedstrommen.github.io/3d-printer-calculator/
+# Try it yourself!
+    https://hedstrommen.github.io/3d-printer-calculator/
 
 # How it looks like:
 <img width="974" height="1212" alt="image" src="https://github.com/user-attachments/assets/47764434-c5b4-4baa-a918-08c03dcaf2f7" />
