@@ -2,7 +2,7 @@
 
 A web app for calculating what a 3D print costs to make — and what you should sell it for.
 
-    OBS - This project is AI written, idea and prompter is human (made from my own calculations in excel)- OBS
+    OBS - This project is entirely AI written, idea and prompter is me (originally one of my excel sheets)- OBS
 
 Runs **entirely in the browser**
 
